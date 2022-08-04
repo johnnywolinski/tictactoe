@@ -1,0 +1,34 @@
+<html>
+	<head>
+	<link href="stylesheet.css" rel="stylesheet">
+	<script src="main.js"></script>
+	<title>Tic Tac Toe</title>
+	</head>
+	
+	<body>
+	
+	<header>
+		<h1>Tic Tac Toe</h1>
+		<p>The first player should click a tile to place an "o" on the board, then pass the mouse to a friend so they can place an "x". Whoever gets 3 in a row wins!<br> <br>
+			
+		</p>
+	</header>
+	
+	<main>
+	<input type='text' id='b0' name='b1' onClick = "applyMove(0)" readonly />
+	<input type='text' id='b1' name='b2' onClick = "applyMove(1)" readonly/>
+	<input type='text' id='b2' name='b3' onClick = "applyMove(2)" readonly/><br>
+	<input type='text' id='b3' name='b4' onClick = "applyMove(3)" readonly/>
+	<input type='text' id='b4' name='b5' onClick = "applyMove(4)" readonly/>
+	<input type='text' id='b5' name='b6' onClick = "applyMove(5)" readonly/><br>
+	<input type='text' id='b6' name='b7' onClick = "applyMove(6)" readonly/>
+	<input type='text' id='b7' name='b8' onClick = "applyMove(7)" readonly/>
+	<input type='text' id='b8' name='b9' onClick = "applyMove(8)" readonly/><br>
+	</main>
+	<br>
+	<footer>
+	<button id="submit" name="submit" onclick = "resetGame()" readonly>Reset<br> Game</button>
+	<button>Play<br> CPU</button>
+	</footer>	
+	</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	text-align: center;
+}
+h1{
+	color: orangered;
+}
+body{
+	background-color: royalblue;
+}
+input{
+	background-color: skyblue;
+	color: orangered;
+	width: 250;
+	border-radius: 8px;
+	font-size: 36px;
+	height: 150;
+	margin: auto;
+	text-align: center;
+	border-width: 2px;
+	border-color: orangered;
+}
+button{
+	border-radius: 8px;
+	margin: 2px;
+	background-color: orangered;
+	height: 150px;
+	font-size: 36px;
+	color: royalblue;
+	width: 250px;
+}
+
+p{
+	margin: auto;
+	width: 750;
+	font-size: 24px;
+	color: skyblue;
+}
